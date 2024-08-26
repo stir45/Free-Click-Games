@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>숫자 증가 게임</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1 id="gameTitle">Free Click Games!!</h1>
+        <div class="language-switcher">
+            <button id="koreanButton" onclick="switchLanguage('ko')">
+                <img src="download.png" alt="Korean Flag" class="flag-icon">
+                한국어
+            </button>
+            <button id="englishButton" onclick="switchLanguage('en')">
+                <img src="download.jpg" alt="English Flag" class="flag-icon">
+                English
+            </button>
+        </div>
+    </div>
+    <div class="counter-container">
+        <h2 id="counter">0</h2>
+        <button id="increaseButton">숫자 증가</button>
+        <button id="basicAutoClickButton" disabled>1 오토클릭 구매 (10 클릭 필요)</button>
+        <button id="smallAutoClickButton" disabled>5 오토클릭 구매 (20 클릭 필요)</button>
+        <button id="mediumAutoClickButton" disabled>20 오토클릭 구매 (50 클릭 필요)</button>
+        <button id="autoClickButton" disabled>20 오토클릭 구매 (500 클릭 필요)</button>
+        <button id="bulkAutoClickButton" disabled>50 오토클릭 구매 (1000 클릭 필요)</button>
+        <button id="megaAutoClickButton" disabled>100 오토클릭 구매 (5000 클릭 필요)</button>
+        <button id="superAutoClickButton" disabled>500 오토클릭 구매 (10000 클릭 필요)</button>
+        <button id="ultraAutoClickButton" disabled>1000 오토클릭 구매 (50000 클릭 필요)</button>
+        <button id="megaUltraAutoClickButton" disabled>100000 오토클릭 구매 (10000000 클릭 필요)</button>
+        <p id="autoClickCount">오토클릭 수: 0</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
