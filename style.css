@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #9ACD32; /* 배경색을 연두색으로 설정 */
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.language-switcher {
+    margin-bottom: 20px;
+}
+
+.language-switcher button {
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    background-color: #0044cc;
+}
+
+.language-switcher .flag-icon {
+    width: 20px;
+    height: 15px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.counter-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* 버튼들을 세로로 정렬 */
+    align-items: center; /* 버튼들을 가운데 정렬 */
+}
+
+#counter {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0; /* 버튼들 사이에 여백 추가 */
+}
+
+#increaseButton {
+    background-color: #0067A3; /* 숫자 증가 버튼 색상 */
+}
+
+#basicAutoClickButton {
+    background-color: #ff8c00; /* 1 오토클릭 버튼 색상 */
+}
+
+#smallAutoClickButton {
+    background-color: #ff6347; /* 5 오토클릭 버튼 색상 */
+}
+
+#mediumAutoClickButton {
+    background-color: #ff4500; /* 20 오토클릭 버튼 색상 */
+}
+
+#autoClickButton {
+    background-color: #A30000; /* 20 오토클릭 버튼 색상 */
+}
+
+#bulkAutoClickButton {
+    background-color: #004c8c; /* 50 오토클릭 버튼 색상 */
+}
+
+#megaAutoClickButton {
+    background-color: #007f00; /* 100 오토클릭 버튼 색상 */
+}
+
+#superAutoClickButton {
+    background-color: #d2691e; /* 500 오토클릭 버튼 색상 */
+}
+
+#ultraAutoClickButton {
+    background-color: #8a2be2; /* 1000 오토클릭 버튼 색상 */
+}
+
+#megaUltraAutoClickButton {
+    background-color: #ff4500; /* 100000 오토클릭 버튼 색상 */
+}
+
+button:disabled {
+    background-color: #ccc; /* 비활성화된 버튼 색상 */
+    cursor: not-allowed;
+}
+
+#autoClickCount {
+    margin-top: 20px;
+    font-size: 1.2em;
+    background-color: #f5f5f5; /* 연한 회색 배경 */
+    color: #333; /* 텍스트 색상 */
+    padding: 10px 15px; /* 내부 여백 */
+    border-radius: 10px; /* 둥근 모서리 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 박스 그림자 */
+    display: inline-block;
+}
